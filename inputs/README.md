@@ -1,5 +1,5 @@
 ```
-[tom@tframe:~/office/matthew/args/systemFile]$ nix build -L --accept-flake-config
+[tom@tframe:~/office/matthew/args/systemFile]$ nix build -L
 warning: Git tree '/home/tom/office/matthew/args' is dirty
 asdf> xxx
 asdf> system is: x86_64-linux
