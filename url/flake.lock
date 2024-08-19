@@ -1,0 +1,37 @@
+{
+  "nodes": {
+    "example": {
+      "flake": false,
+      "locked": {
+        "flake": 0,
+        "narHash": "sha256-4QrIZZUUMPmfyDqzVdsEB60gyhZoo1wW+4XewnT4+UM=",
+        "type": "url",
+        "url": "https://example.com"
+      },
+      "original": {
+        "flake": 0,
+        "type": "url",
+        "url": "https://example.com"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-u/sBnRgrFrn9W8gZMS6vN3ZnJsoTvbws968TpqwlDJQ=",
+        "path": "/nix/store/0pypqlnsmw5k1bkh2njpiyrdp7kiqymn-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "example": "example",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
